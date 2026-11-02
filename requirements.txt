@@ -1,0 +1,18 @@
+# scraping
+crawl4ai
+pypdf
+pypdfium2     # renders scanned pdf pages for OCR
+pytesseract   # OCR; also needs the tesseract binary (brew install tesseract)
+pyyaml
+cssselect
+# retrieval
+numpy
+nltk
+rank-bm25
+faiss-cpu
+sentence-transformers
+torch
+# reader (mlx-lm on Apple Silicon, transformers elsewhere)
+mlx-lm; platform_system == "Darwin" and platform_machine == "arm64"
+transformers
+accelerate

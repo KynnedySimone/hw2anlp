@@ -1,0 +1,728 @@
+# URLs scraped by scraping.py, grouped by category.
+# Duplicates (including #fragment / trailing-slash variants) are removed on load.
+# Commented-out URLs are skipped.
+
+pittsburgh_trivia: 
+- https://www.watercoolertrivia.com/trivia-questions/pittsburgh-trivia-questions
+- https://www.funtrivia.com/trivia-quiz/Humanities/Do-You-Know-Pittsburghese-132403.html 
+- https://news.dom.pitt.edu/fun/ 
+- https://www.jetpunk.com/user-quizzes/273453/pittsburgh-city-trivia
+
+
+wikipedia_cmu:
+  - https://en.wikipedia.org/wiki/Andrew_Carnegie
+  - https://en.wikipedia.org/wiki/Andrew_Mellon
+  - https://en.wikipedia.org/wiki/Association_of_American_Universities
+  - https://en.wikipedia.org/wiki/Carnegie_Library_of_Pittsburgh
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_College_of_Engineering
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_School_of_Computer_Science
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_University_Computational_Biology_Department
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_School_of_Drama
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_College_of_Fine_Arts
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_School_of_Art
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_School_of_Music
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_School_of_Design
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_Tartans_football
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_University
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_University_Africa
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_University_in_Qatar
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_University_traditions
+  - https://en.wikipedia.org/wiki/Carnegie_School
+  - https://en.wikipedia.org/wiki/Dietrich_College_of_Humanities_and_Social_Sciences
+  - https://en.wikipedia.org/wiki/Disney_Research
+  - https://en.wikipedia.org/wiki/Entertainment_Technology_Center
+  - https://en.wikipedia.org/wiki/EteRNA
+  - https://en.wikipedia.org/wiki/Forbes_Expedition
+  - https://en.wikipedia.org/wiki/Fort_Duquesne
+  - https://en.wikipedia.org/wiki/Heinz_College
+  - https://en.wikipedia.org/wiki/Herbert_A._Simon
+  - https://en.wikipedia.org/wiki/Human%E2%80%93Computer_Interaction_Institute
+  - https://en.wikipedia.org/wiki/Hunt_Institute_for_Botanical_Documentation
+  - https://en.wikipedia.org/wiki/IBM_Google_Cloud_Computing_University_Initiative
+  - https://en.wikipedia.org/wiki/Information_Networking_Institute
+  - https://en.wikipedia.org/wiki/Language_Technologies_Institute
+  - https://en.wikipedia.org/wiki/List_of_Carnegie_Mellon_University_fraternities_and_sororities
+  - https://en.wikipedia.org/wiki/List_of_Carnegie_Mellon_University_people
+  - https://en.wikipedia.org/wiki/Main_Building_(U.S._Bureau_of_Mines)
+  - https://en.wikipedia.org/wiki/Margaret_Morrison_Carnegie_College
+  - https://en.wikipedia.org/wiki/Meadowcroft_Rockshelter
+  - https://en.wikipedia.org/wiki/Mellon_College_of_Science
+  - https://en.wikipedia.org/wiki/Mellon_Institute_of_Industrial_Research
+  - https://en.wikipedia.org/wiki/Million_Book_Project
+  - https://en.wikipedia.org/wiki/Newell-Simon_Hall
+  - https://en.wikipedia.org/wiki/Pennsylvania_Governor%27s_School_for_the_Sciences
+  - https://en.wikipedia.org/wiki/Pittsburgh_Supercomputing_Center
+  - https://en.wikipedia.org/wiki/Robotics_Institute_(Carnegie_Mellon_University)
+  - https://en.wikipedia.org/wiki/Scotch%27n%27Soda_Theatre
+  - https://en.wikipedia.org/wiki/Shannopin%27s_Town
+  - https://en.wikipedia.org/wiki/Software_Engineering_Institute
+  - https://en.wikipedia.org/wiki/Tepper_School_of_Business
+  - https://en.wikipedia.org/wiki/Walking_to_the_Sky
+  - https://en.wikipedia.org/wiki/Whiskey_Rebellion
+
+general_info_history:
+  - https://en.wikipedia.org/wiki/Pittsburgh
+  - https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  - https://www.visitpittsburgh.com/things-to-do/arts-culture/history/
+
+culture_arts:
+  - https://en.wikipedia.org/wiki/Pittsburgh_Symphony_Orchestra
+  - https://en.wikipedia.org/wiki/Pittsburgh_Opera
+  - https://en.wikipedia.org/wiki/Pittsburgh_Cultural_Trust
+  - https://en.wikipedia.org/wiki/Carnegie_Museums_of_Pittsburgh
+  - https://carnegiemuseums.org/
+  - https://en.wikipedia.org/wiki/Senator_John_Heinz_History_Center
+  - https://www.heinzhistorycenter.org/
+  - https://en.wikipedia.org/wiki/The_Frick_Pittsburgh
+
+sports:
+  - https://en.wikipedia.org/wiki/Pittsburgh_Pirates
+  - https://en.wikipedia.org/wiki/Pittsburgh_Steelers
+  - https://en.wikipedia.org/wiki/Pittsburgh_Penguins
+  - https://www.visitpittsburgh.com/things-to-do/pittsburgh-sports-teams/
+  - https://en.wikipedia.org/wiki/Sports_in_Pittsburgh
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_football
+  - https://www.visitpittsburgh.com/things-to-do/pittsburgh-sports-teams/other-sports-teams/ 
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_men%27s_basketball 
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_women%27s_basketball 
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_men%27s_soccer
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_women%27s_soccer
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_baseball
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_softball
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_athletics
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_football
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_men%27s_basketball
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_women%27s_basketball
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_men%27s_soccer
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_women%27s_soccer
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_baseball
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_softball
+  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_athletics
+
+events:
+  - https://downtownpittsburgh.com/events/
+  # - https://www.pghcitypaper.com/pittsburgh/EventSearch   # blocks scrapers (403/410)
+  - https://events.cmu.edu/
+
+food_visit_pittsburgh:
+  - https://www.visitpittsburgh.com/blog/top-things-to-do/
+  - https://www.visitpittsburgh.com/events-festivals/
+  - https://www.visitpittsburgh.com/events-festivals/food-festivals/
+  - https://www.visitpittsburgh.com/blog/foods-you-can-only-get-in-pittsburgh/
+  - https://www.visitpittsburgh.com/blog/taste-of-pittsburgh/
+  - https://www.visitpittsburgh.com/blog/unique-pittsburgh-pierogi-joints/
+  - https://www.visitpittsburgh.com/blog/pittsburgh-food-trucks-worth-tracking-down/
+  - https://www.visitpittsburgh.com/blog/what-to-eat-at-pnc-park/
+  - https://www.visitpittsburgh.com/blog/pittsburgh-vegan-restaurants/
+  - https://www.visitpittsburgh.com/blog/japanese-restaurants/
+  - https://www.visitpittsburgh.com/blog/italian-restaurants/
+  - https://www.visitpittsburgh.com/blog/what-to-eat-at-kennywood/
+  - https://www.visitpittsburgh.com/blog/best-soup-in-pittsburgh/
+  - https://www.visitpittsburgh.com/blog/fish-fry-days/
+  - https://www.visitpittsburgh.com/blog/best-donut-shops-in-pittsburgh/
+  - https://www.visitpittsburgh.com/blog/best-mocktails/
+  - https://www.visitpittsburgh.com/blog/seafood-restaurants/
+  - https://www.visitpittsburgh.com/restaurants-culinary/farms-farmers-markets/guide-to-pittsburgh-farmers-markets/
+  - https://www.visitpittsburgh.com/blog/discovering-shadyside/
+  - https://www.visitpittsburgh.com/blog/pittsburgh-craft-beer-winter-warmers/
+  - https://www.visitpittsburgh.com/events-festivals/annual-events/pittsburgh-winter-beerfest/
+  - https://www.visitpittsburgh.com/blog/winter-restaurant-week/
+
+history_visit_pittsburgh:
+  - https://www.visitpittsburgh.com/things-to-do/arts-culture/history/
+
+food_discover_the_burgh:
+  - https://www.discovertheburgh.com/best-restaurants-in-pittsburgh/
+  - https://www.discovertheburgh.com/famous-pittsburgh-foods/
+  - https://www.discovertheburgh.com/pittsburgh-craft-beer/
+  - https://www.discovertheburgh.com/pittsburgh-distilleries/
+  - https://www.discovertheburgh.com/pittsburgh-wineries/
+  - https://www.discovertheburgh.com/pittsburgh-wine-bars/
+  - https://www.discovertheburgh.com/bakeries-in-pittsburgh/
+  - https://www.discovertheburgh.com/pittsburgh-coffee-shops/
+  - https://www.visitpittsburgh.com/blog/foods-you-can-only-get-in-pittsburgh/
+  - https://www.discovertheburgh.com/pittsburgh-street-food/
+
+food_festivals:
+  - https://en.wikipedia.org/wiki/Picklesburgh
+  - https://www.picklesburgh.com/
+  - https://pittsburghrestaurantweek.com/
+  - https://littleitalydays.com/
+  - https://www.pghtacofest.com/
+  - https://bananasplitfest.com/
+  - https://shuc.org/events/night-markets/ 
+  - https://www.eastendbrewing.com/events/autumnsup
+
+things_to_do:
+  - https://www.discovertheburgh.com/things-to-do-in-pittsburgh/
+  - https://www.discovertheburgh.com/pittsburgh-museums/
+  - https://www.discovertheburgh.com/pittsburgh-parks/
+  - https://www.discovertheburgh.com/pittsburgh-bike-trails/
+  - https://www.discovertheburgh.com/free-attractions-in-pittsburgh/
+  - https://www.discovertheburgh.com/pittsburgh-sports/
+  - https://www.discovertheburgh.com/pittsburgh-day-trips/
+  - https://www.discovertheburgh.com/events-in-pittsburgh-calendar/
+  - https://www.discovertheburgh.com/pittsburgh-for-first-timers/
+  - https://www.discovertheburgh.com/places-to-eat-in-pittsburgh/
+  - https://www.discovertheburgh.com/pittsburgh-transportation/
+  - https://www.discovertheburgh.com/pittsburgh-day-trips/
+
+neighborhoods:
+  - https://www.discovertheburgh.com/oakland-neighborhood-guide/
+  - https://www.discovertheburgh.com/downtown-pittsburgh/
+  - https://www.discovertheburgh.com/squirrel-hill-neighborhood-guide/
+  - https://www.discovertheburgh.com/shadyside-neighborhood-guide/
+  - https://www.discovertheburgh.com/south-side-neighborhood-guide/
+  - https://www.discovertheburgh.com/north-side-neighborhood-guide/
+  - https://www.discovertheburgh.com/east-liberty-neighborhood-guide/
+  - https://www.discovertheburgh.com/strip-district-guide/
+  - https://www.discovertheburgh.com/mount-washington-guide/
+  - https://www.discovertheburgh.com/lawrenceville-neighborhood-guide/
+  - https://www.discovertheburgh.com/bloomfield-neighborhood-guide/
+
+cmu_and_museums:
+  - https://www.cmu.edu/about/traditions
+  - https://www.cmu.edu/engage/events/spring-carnival
+  - https://www.cmu.edu/engage/events/homecoming
+  - https://www.cmu.edu/health-safety
+  - https://www.cmu.edu/oie/
+  - https://www.cmu.edu/sfs/cost-and-affordability/index.html
+  - https://www.cmu.edu/research-and-creativity/centers-and-institutes
+  - https://www.warhol.org/
+  - https://carnegiemnh.org/
+  - https://www.heinzhistorycenter.org/
+  - https://www.aviary.org/
+  - https://carnegieart.org/
+  - https://kaminsciencecenter.org/
+  - https://mattress.org/
+  - https://www.phipps.conservatory.org/
+  - https://www.cmu.edu/tony-awards/past-cmu-winners/index.html
+
+museum_logs:
+  - https://collection.carnegieart.org/
+  - https://carnegieart.org/art/whats-on-view/ 
+  - https://carnegieart.org/exhibition/what-brings-us-here/
+  - https://carnegieart.org/exhibition/inheritance/ 
+  - https://carnegieart.org/exhibition/a-history-of-the-carnegie-international/
+  - https://carnegieart.org/location/scaife-gallery-5/
+  - https://carnegieart.org/location/scaife-gallery-7/
+  - https://carnegieart.org/location/scaife-gallery-17/
+  - https://carnegieart.org/location/bruce-galleries/
+
+
+misc_pittsburgh_cmu:
+  - https://en.wikipedia.org/wiki/List_of_bridges_of_Pittsburgh
+  - https://en.wikipedia.org/wiki/University_of_Pittsburgh
+  - https://positivelypittsburgh.com/madein-pittsburgh/
+  - http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/#facultytextcontainer
+  - https://en.wikipedia.org/wiki/William_Pitt,_1st_Earl_of_Chatham
+  - https://en.wikipedia.org/wiki/Flag_of_Pittsburgh
+  - https://www.visitpittsburgh.com/events-festivals/annual-events/
+  - https://en.wikipedia.org/wiki/List_of_museums_in_Pittsburgh
+  - https://en.wikipedia.org/wiki/Greater_Pittsburgh
+  - https://www.cmu.edu/brag/
+  - https://www.cs.cmu.edu/scs25/history
+  - https://www.cs.cmu.edu/scs25/25things
+  - https://www.admitsee.com/blog/10-fun-facts-about-carnegie-mellon-university
+  - https://www.cmu.edu/about/history
+  - https://www.cmu.edu/admission/campus-experience/discover-pittsburgh
+  - https://www.cmu.edu/admission/majors-programs/undergraduate-program-finder
+  - http://coursecatalog.web.cmu.edu/degreesoffered/graduate-degrees/
+  - https://www.cmu.edu/news/stories/archives/2026/february/how-cmu-built-a-world-leading-robotics-ecosystem
+  - https://www.cmu.edu/piper/news/features.html
+
+cmu_125_milestones:
+  - https://www.cmu.edu/125/cmu-history/uniquely-cmu.html
+  - https://www.cmu.edu/125/stories/index.html
+  - https://www.cmu.edu/125/cmu-history/firsts-innovations.html
+  - https://www.cmu.edu/125/cmu-history/science-technology.html
+  - https://www.cmu.edu/125/cmu-history/partnerships-philanthropy.html
+  - https://www.cmu.edu/125/cmu-history/arts-humanities.html
+  - https://www.cmu.edu/125/cmu-history/campus-life.html
+  - https://www.cmu.edu/125/cmu-history/uniquely-cmu.html
+
+notable_people:
+  - https://en.wikipedia.org/wiki/List_of_Carnegie_Mellon_University_people
+  - https://en.wikipedia.org/wiki/Randy_Pausch
+  - https://en.wikipedia.org/wiki/Herbert_A._Simon
+  - https://en.wikipedia.org/wiki/John_Pople
+  - https://en.wikipedia.org/wiki/Tom_M._Mitchell
+  - https://en.wikipedia.org/wiki/Tuomas_Sandholm
+  - https://en.wikipedia.org/wiki/Lorrie_Cranor
+  - https://en.wikipedia.org/wiki/Po-Shen_Loh
+  - https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr.
+  - https://en.wikipedia.org/wiki/Otto_Stern
+  - https://en.wikipedia.org/wiki/Franco_Modigliani
+  - https://en.wikipedia.org/wiki/Geoffrey_Hinton
+  - https://en.wikipedia.org/wiki/David_S._Touretzky
+  - https://en.wikipedia.org/wiki/Robert_Lucas_Jr.
+  - https://en.wikipedia.org/wiki/David_J._Farber
+
+history:
+  - https://pittsburghquarterly.com/articles/a-very-brief-history-of-pittsburgh/
+
+medicine:
+  - https://en.wikipedia.org/wiki/University_of_Pittsburgh_Medical_Center
+  - https://en.wikipedia.org/wiki/UPMC_Children%27s_Hospital_of_Pittsburgh
+
+recommended:
+  - https://www.pittsburghpa.gov/City-Government/Finance-Budget/Taxes/Tax-Forms
+  - https://www.britannica.com/place/Pittsburgh
+
+events_monthly_annual:
+  - https://pittsburgh.events/october/
+  - https://pittsburgh.events/november/
+  - https://pittsburgh.events/december/
+  - https://downtownpittsburgh.com/events/
+
+events_cmu:
+  - https://events.cmu.edu/week/date/20261004
+  - https://events.cmu.edu/week/date/20261011
+  - https://events.cmu.edu/week/date/20261018
+  - https://events.cmu.edu/week/date/20261025
+  - https://events.cmu.edu/week/date/20261101
+  - https://events.cmu.edu/week/date/20261108
+  - https://events.cmu.edu/week/date/20261115
+  - https://events.cmu.edu/week/date/20261122
+  - https://events.cmu.edu/week/date/20261129
+  - https://events.cmu.edu/week/date/20261206
+  - https://events.cmu.edu/week/date/20261213
+  - https://events.cmu.edu/week/date/20261220
+  - https://events.cmu.edu/week/date/20261227 
+  - https://events.cmu.edu/week/date/20270103     
+
+
+misc:
+  - https://en.wikipedia.org/wiki/Heinz_Hall
+  - https://en.wikipedia.org/wiki/Pittsburgh_Youth_Symphony_Orchestra
+  - https://en.wikipedia.org/wiki/Pittsburgh_Symphony_Orchestra
+  - https://en.wikipedia.org/wiki/Cultural_District,_Pittsburgh
+  - https://en.wikipedia.org/wiki/Pittsburgh_Creative_and_Performing_Arts_School
+  - https://www.pittsburghhalloffame.com/about#Introduction
+  - https://www.heinzhistorycenter.org/whats-on/history-center/exhibits/
+  - https://en.wikipedia.org/wiki/Economy_of_Pittsburgh
+  - https://en.wikipedia.org/wiki/PNC_Financial_Services
+  - https://en.wikipedia.org/wiki/Allegheny_Health_Network
+  - https://en.wikipedia.org/wiki/BNY
+  - https://en.wikipedia.org/wiki/Highmark
+  - https://en.wikipedia.org/wiki/U.S._Steel
+  - https://en.wikipedia.org/wiki/Duquesne_Dukes_football 
+
+events_venues:
+  - https://improv.com/pittsburgh/calendar/   # a past ?start= date returns "no events"
+  - https://librarymusichall.com/all-shows
+  - https://www.ppgpaintsarena.com/events
+  - https://www.stagepittsburgh.com/events/
+  - https://pvgp.org/
+  - https://pvgp.org/calendar/
+  - https://pvgp.org/history/
+  - https://pghirishfest.org/about/
+  - https://promowestlive.com/our-venues/stage-ae
+
+steelers:
+  - https://www.steelers.com/schedule/event-calendar/
+  - https://www.steelers.com/schedule/
+  - https://www.steelers.com/history/hall-of-fame/
+
+
+more_from_readme:
+  - https://www.pittsburghpa.gov/Home
+  - https://www.alleghenycounty.us/files/assets/county/v/1/government/budget-amp-finance/operating-budget/2026-operating-budget.pdf 
+  - https://www.cmu.edu/engage/alumni/events/campus/index.html 
+  - https://www.pittsburghsymphony.org 
+  - https://en.wikipedia.org/wiki/Pittsburgh_Symphony_Orchestra
+  - https://pittsburghopera.org 
+  - https://trustarts.org 
+  - https://www.thefrickpittsburgh.org 
+  - https://www.mlb.com/pirates 
+  - https://www.nhl.com/penguins/ 
+
+taxes:
+  # pdf urls are downloaded into data/pdfs and parsed with pypdf
+  - https://apps.alleghenycounty.us/website/millmuni.asp     # every municipality's 2026 millage
+  - https://apps.alleghenycounty.us/website/millsd.asp       # every school district's millage
+  - https://www.pittsburghpa.gov/files/assets/city/v/1/finance/documents/tax-forms/16958_2022_tax_rate_by_tax_type.pdf
+  - https://www.pittsburghpa.gov/files/assets/city/v/1/finance/documents/tax-forms/16957_2022_tax_due_date_calendar_.pdf
+  - https://www.pittsburghpa.gov/files/assets/city/v/1/finance/documents/tax-forms/ls-tax-exemption-certificate-2026.pdf
+  - https://www.pittsburghpa.gov/files/assets/city/v/1/finance/documents/tax-forms/taxpayers-bill-of-rights-rev.-12.2025.pdf
+  - https://www.pittsburghpa.gov/files/assets/city/v/4/omb/documents/operating-budgets/2025-operating-budget.pdf
+
+
+music_theater_venues:
+  - https://thunderbirdmusichall.com/shows
+  - https://www.mrsmalls.com/
+  - https://pittsburghsavoyards.org/
+  - https://trustarts.org/calendar
+  - https://www.pittsburghsymphony.org/calendar
+  - https://en.wikipedia.org/wiki/Pittsburgh_Symphony_Orchestra
+  - https://www.pittsburghclo.org/
+  - https://ppt.org/
+  - https://onstagepittsburgh.com/
+
+pitt_library_events:
+  - https://pitt.libcal.com/calendar
+  - https://pitt.libcal.com/calendar?cid=-1&t=m&d=2026-11-01&cal=-1
+  - https://pitt.libcal.com/calendar?cid=-1&t=m&d=2026-12-01&cal=-1
+
+visit_pittsburgh_events: 
+- https://www.visitpittsburgh.com/events-festivals/?hitsPerPage=96&page=1
+- https://www.visitpittsburgh.com/events-festivals/?hitsPerPage=96&page=2
+- https://www.visitpittsburgh.com/events-festivals/?hitsPerPage=96&page=3
+- https://www.visitpittsburgh.com/events-festivals/?hitsPerPage=96&page=4
+- https://www.visitpittsburgh.com/events-festivals/?hitsPerPage=96&page=5
+- https://www.visitpittsburgh.com/events-festivals/?hitsPerPage=96&page=6
+
+college_sports_schedules:
+  - https://pittsburghpanthers.com/sports/football/schedule
+  - https://pittsburghpanthers.com/sports/mens-basketball/schedule
+  - https://pittsburghpanthers.com/sports/womens-basketball/schedule
+  - https://pittsburghpanthers.com/sports/womens-volleyball/schedule
+  - https://goduquesne.com/sports/football/schedule
+  - https://goduquesne.com/sports/mens-basketball/schedule
+  - https://goduquesne.com/sports/womens-basketball/schedule
+  - https://rmucolonials.com/sports/football/schedule
+  - https://rmucolonials.com/sports/mens-basketball/schedule
+  - https://rmucolonials.com/sports/womens-basketball/schedule
+  - https://rmucolonials.com/sports/mens-ice-hockey/schedule
+
+
+misc_patches: 
+- https://necsports.com/sports/2011/9/22/mbball_443.aspx
+- https://en.wikipedia.org/wiki/Northeast_Conference
+- https://www.pittsburghsymphony.org/calendar?page=1
+- https://www.pittsburghsymphony.org/calendar?page=2
+- https://pittsburghrestaurantweek.com/about/
+- https://www.bethelparkpa.gov/finance0ae1992b
+- https://en.wikipedia.org/wiki/Greater_Pittsburgh 
+- https://pghnorthchamber.com/community/counties-municipalities/
+- https://en.wikipedia.org/wiki/Allegheny_County,_Pennsylvania 
+- https://ironbornpizza.com/
+- https://www.gabyetjules.com/ 
+- https://www.cmu.edu/student-affairs/sit/traditions/index.html
+- https://farmersmarketcooperativeofeastliberty.com/
+- https://thegetawaypgh.com/series/monday-night-open-mic-comedy/ 
+- https://www.visitpittsburgh.com/blog/downtown-draws-exploring-cafes-cocktail-bars-jazz-joints-other-enticing-stages/
+- https://www.visitpittsburgh.com/blog/top-places-to-eat-in-downtown-pittsburgh/
+- https://www.visitpittsburgh.com/blog/a-guide-to-market-square/ 
+- https://www.post-gazette.com/life/dining/2026/10/27/best-restaurants-pittsburgh-2026/stories/202608130060 
+- https://www.pittsburghmagazine.com/category/restaurant-reviews/
+- https://www.pittsburghmagazine.com/category/restaurant-reviews/page/2/ 
+- https://www.pittsburghmagazine.com/category/restaurant-reviews/page/3/
+- https://www.pittsburghmagazine.com/category/restaurant-reviews/page/4/
+- https://www.pittsburghmagazine.com/category/restaurant-reviews/page/5/
+- https://www.pittsburghmagazine.com/category/restaurant-reviews/page/6/
+- https://www.cmu.edu/tepper/
+- https://www.cmu.edu/tepper/about
+- https://www.ri.cmu.edu/robotics-groups/navlab/ 
+- https://www.ri.cmu.edu/research/labs-groups/
+- https://www.steelers.com/schedule/2026/ 
+- https://www.steelers.com/schedule/event-calendar/game-themes/
+- https://www.nhl.com/penguins/schedule/2026-10-01/list
+- https://www.nhl.com/penguins/schedule/2026-10-08/list
+- https://www.nhl.com/penguins/schedule/2026-10-15/list
+- https://www.nhl.com/penguins/schedule/2026-10-22/list
+- https://www.nhl.com/penguins/schedule/2026-10-29/list
+- https://www.nhl.com/penguins/schedule/2026-11-05/list
+- https://www.nhl.com/penguins/schedule/2026-11-12/list
+- https://www.nhl.com/penguins/schedule/2026-11-19/list
+- https://www.nhl.com/penguins/schedule/2026-11-26/list
+- https://www.nhl.com/penguins/schedule/2026-12-03/list
+- https://www.nhl.com/penguins/schedule/2026-12-10/list
+- https://www.nhl.com/penguins/schedule/2026-12-17/list
+- https://www.nhl.com/penguins/schedule/2026-12-24/list
+- https://www.nhl.com/penguins/schedule/2026-12-31/list
+- https://www.nhl.com/penguins/roster 
+- https://www.mlb.com/pirates/roster 
+- https://pittsburghpanthers.com/calendar/print/month/0/9-27-2026/11-1-2026/null
+- https://pittsburghpanthers.com/calendar/print/month/0/11-1-2026/12-6-2026/null
+- https://pittsburghpanthers.com/calendar/print/month/0/11-29-2026/1-3-2027/null 
+- https://athletics.cmu.edu/sports/mbkb/2026-27/schedule
+- https://athletics.cmu.edu/sports/mbkb/2026-27/schedule 
+- https://athletics.cmu.edu/sports/mxc/2026-27/schedule
+- https://athletics.cmu.edu/sports/fball/2026-27/schedule
+- https://athletics.cmu.edu/sports/msoc/2026-27/schedule
+- https://athletics.cmu.edu/sports/mswimdive/2026-27/schedule
+- https://athletics.cmu.edu/sports/mten/2026-27/schedule
+- https://athletics.cmu.edu/sports/wvball/2026-27/schedule
+- https://athletics.cmu.edu/sports/wbkb/2026-27/schedule
+- https://comedycalendar.com/pittsburgh-comedy-shows-city-guide/ 
+- https://thunderbirdmusichall.com/aboutus/ 
+- https://thunderbirdmusichall.com/shows/?rhp_paged=1&rhp_event_display=grid&view=grid&rhp_bar_rhp_gen=0&rhp_bar_rhp_venue=0&rhp_bar_rhp_month=10 
+- https://thunderbirdmusichall.com/shows/?rhp_paged=1&rhp_event_display=grid&view=grid&rhp_bar_rhp_gen=0&rhp_bar_rhp_venue=0&rhp_bar_rhp_month=11 
+- https://thunderbirdmusichall.com/shows/?rhp_paged=1&rhp_event_display=grid&view=grid&rhp_bar_rhp_gen=0&rhp_bar_rhp_venue=0&rhp_bar_rhp_month=12 
+- https://www.thefrickpittsburgh.org/Files/Admin/The%2DFrick%2DPittsburgh%2DStrategic%2DPlan%2Epdf
+- https://www.thefrickpittsburgh.org/plan-your-visit#visit 
+- https://pittsburghbotanicgarden.org/plan-your-visit/
+- https://pittsburghbotanicgarden.org/program-calendar/
+- https://www.aviary.org/ 
+- https://www.aviary.org/dining-gift-shop/atrias-kookaburra-cafe/ 
+- https://www.aviary.org/visit/daily-activities/ 
+
+
+all_robotics_groups: 
+- https://www.ri.cmu.edu/robotics-groups/advanced-agent-robotics-technology-lab/
+- https://www.ri.cmu.edu/robotics-groups/aiira/
+- https://www.ri.cmu.edu/robotics-groups/air-lab/
+- https://www.ri.cmu.edu/robotics-groups/arcs-lab/
+- https://www.ri.cmu.edu/robotics-groups/atkeson-lab/
+- https://www.ri.cmu.edu/robotics-groups/auton-lab/
+- https://www.ri.cmu.edu/robotics-groups/biomedical-image-guidance/
+- https://www.ri.cmu.edu/robotics-groups/biorobotics/
+- https://www.ri.cmu.edu/robotics-groups/bot-intelligence-group/
+- https://www.ri.cmu.edu/robotics-groups/cmu-center-for-autonomous-vehicle-research/
+- https://www.ri.cmu.edu/robotics-groups/cmu-safe-ai-lab/
+- https://www.ri.cmu.edu/robotics-groups/cognitive-assistance-laboratory/
+- https://www.ri.cmu.edu/robotics-groups/computational-behavior-cube-lab/
+- https://www.ri.cmu.edu/robotics-groups/computational-imaging-at-cmu/
+- https://www.ri.cmu.edu/robotics-groups/computer-vision-at-cmu/
+- https://www.ri.cmu.edu/robotics-groups/connecting-language-to-actions-the-world-lab/
+- https://www.ri.cmu.edu/robotics-groups/create-community-robotics-education-and-technology-empowerment/
+- https://www.ri.cmu.edu/robotics-groups/drop-deep-robot-optical-perception-lab/
+- https://www.ri.cmu.edu/robotics-groups/delight/
+- https://www.ri.cmu.edu/robotics-groups/foam-robotics-lab/
+- https://www.ri.cmu.edu/robotics-groups/driverless-intelligent-vehicles-lab/
+- https://www.ri.cmu.edu/robotics-groups/kantorlab/
+- https://www.ri.cmu.edu/robotics-groups/generative-intelligence-lab/
+- https://www.ri.cmu.edu/robotics-groups/computer-graphics-lab/
+- https://www.ri.cmu.edu/robotics-groups/human-and-robot-partners-lab/
+- https://www.ri.cmu.edu/robotics-groups/human-sensing/
+- https://www.ri.cmu.edu/robotics-groups/illumination-and-imaging-lab/
+- https://www.ri.cmu.edu/robotics-groups/intelligent-autonomous-manipulation-lab/
+- https://www.ri.cmu.edu/robotics-groups/intelligent-control-lab/
+- https://www.ri.cmu.edu/robotics-groups/intelligent-coordination-and-logistics-laboratory/
+- https://www.ri.cmu.edu/robotics-groups/intent-robotics-lab/
+- https://www.ri.cmu.edu/robotics-groups/lecar-lab/
+- https://www.ri.cmu.edu/robotics-groups/legged-systems-group/
+- https://www.ri.cmu.edu/robotics-groups/mattlab/
+- https://www.ri.cmu.edu/robotics-groups/metamobility-lab/
+- https://www.ri.cmu.edu/robotics-groups/microdynamic-systems-laboratory/
+- https://www.ri.cmu.edu/robotics-groups/momentum-robotics-lab/
+- https://www.ri.cmu.edu/robotics-groups/musculoskeletal-biomechanics-lab/
+- https://www.ri.cmu.edu/robotics-groups/navlab/
+- https://www.ri.cmu.edu/robotics-groups/pathak-research-group/
+- https://www.ri.cmu.edu/robotics-groups/physical-perception-lab/
+- https://www.ri.cmu.edu/robotics-groups/reliable-autonomous-systems-lab/
+- https://www.ri.cmu.edu/robotics-groups/resilient-intelligent-systems-lab/
+- https://www.ri.cmu.edu/robotics-groups/robot-perception-lab/
+- https://www.ri.cmu.edu/robotics-groups/robotic-caregiving-and-human-interaction-lab/
+- https://www.ri.cmu.edu/robotics-groups/robotic-exploration-lab/
+- https://www.ri.cmu.edu/robotics-groups/robotics-academy/
+- https://www.ri.cmu.edu/robotics-groups/robots-perceiving-and-doing/
+- https://www.ri.cmu.edu/robotics-groups/search-based-planning-laboratory/
+- https://www.ri.cmu.edu/robotics-groups/shred-lab/
+- https://www.ri.cmu.edu/robotics-groups/soft-machines-lab/
+- https://www.ri.cmu.edu/robotics-groups/surgical-mechatronics-laboratory/
+- https://www.ri.cmu.edu/robotics-groups/tbd-lab/
+- https://www.ri.cmu.edu/robotics-groups/textiles-lab/
+- https://www.ri.cmu.edu/robotics-groups/visualization-and-image-analysis/
+- https://www.ri.cmu.edu/robotics-groups/zhang-lab/
+- https://www.ri.cmu.edu/robotics-groups/zoom-lab/
+
+more_dining: 
+- https://www.pittsburghmagazine.com/the-25-best-restaurants-in-pittsburgh-for-2026/
+- https://www.discovertheburgh.com/best-restaurants-in-pittsburgh/
+- https://www.pittsburghmagazine.com/where-to-wine-and-dine-in-pittsburghs-cultural-district/
+- https://www.visitpittsburgh.com/blog/top-places-to-eat-in-downtown-pittsburgh/
+- https://www.visitpittsburgh.com/blog/great-pizza-places-in-pittsburgh/
+- https://www.visitpittsburgh.com/neighborhoods/squirrel-hill/squirrel-hills-local-flavors/
+- https://www.visitpittsburgh.com/blog/foods-you-can-only-get-in-pittsburgh/
+- https://www.visitpittsburgh.com/blog/satisfy-your-sweet-tooth-in-pittsburgh/
+- https://www.visitpittsburgh.com/blog/pittsburgh-rooftop-bars/
+- https://www.visitpittsburgh.com/directory/fogo-de-chao-brazilian-steakhouse/
+- https://www.foodnetwork.com/restaurants/pa/pittsburgh/tako-restaurant
+- https://butcherandtherye.com/
+- https://pittsburghrestaurantweek.com/
+
+athletics: 
+- https://gochathamcougars.com/ 
+- https://gochathamcougars.com/calendar?date=11/1/2026&vtype=month
+- https://gochathamcougars.com/calendar?date=12/1/2026&vtype=month 
+- https://gochathamcougars.com/coverage 
+- https://gochathamcougars.com/coverage?date=11/08/2026
+- https://gochathamcougars.com/coverage?date=11/15/2026
+- https://gochathamcougars.com/coverage?date=11/22/2026
+- https://gochathamcougars.com/coverage?date=11/29/2026
+- https://gochathamcougars.com/coverage?date=12/06/2026
+- https://gochathamcougars.com/coverage?date=12/13/2026
+- https://gochathamcougars.com/coverage?date=12/20/2026
+- https://gochathamcougars.com/coverage?date=12/27/2026
+- https://goduquesne.com/splash.aspx?id=splash_37
+- https://www.duq.edu/life-at-duquesne/health-recreation-wellness/club-sports.php
+- https://duq.campuslabs.com/engage/organization/duquesneuniversityicehockey
+- https://rmucolonials.com/splash.aspx?id=splash_87
+- https://rmucolonials.com/calendar?date=11/1/2026&vtype=list
+- https://rmucolonials.com/calendar?date=11/8/2026&vtype=list
+- https://rmucolonials.com/calendar?date=11/15/2026&vtype=list
+- https://rmucolonials.com/calendar?date=11/22/2026&vtype=list
+- https://rmucolonials.com/calendar?date=11/29/2026&vtype=list
+- https://rmucolonials.com/calendar?date=12/6/2026&vtype=list
+- https://rmucolonials.com/calendar?date=12/13/2026&vtype=list
+- https://rmucolonials.com/calendar?date=12/20/2026&vtype=list
+- https://rmucolonials.com/calendar?date=12/27/2026&vtype=list
+- https://pointparksports.com/
+- https://events.pointpark.edu/athletics/calendar/day/2026/10/1?card_size=small&order=date&days=31&experience=
+- https://events.pointpark.edu/athletics/calendar/day/2026/10/1/2?card_size=small&days=31&experience=&order=date
+- https://events.pointpark.edu/athletics/calendar/upcoming?card_size=small&order=date&experience=
+- https://events.pointpark.edu/athletics/calendar/upcoming/2?card_size=small&experience=&order=date
+- https://events.pointpark.edu/athletics/calendar/day/2026/12/1?card_size=small&order=date&days=31&experience=
+- https://www.steelers.com/team/players-roster/
+- https://www.steelers.com/news/steelers-initial-2026-53-man-roster
+- https://www.mlb.com/pirates/roster/coaches
+- https://www.mlb.com/pirates/team/front-office
+- https://www.mlb.com/pirates/roster
+- https://www.mlb.com/pirates/news/pirates-2026-coaching-staff
+- https://www.nhl.com/penguins/tickets/promotional-schedule
+- https://www.nhl.com/penguins/news/penguins-announce-2026-27-theme-nights-and-special-ticket-packages
+- https://www.nhl.com/penguins/news/penguins-announce-2026-27-gate-giveaway-promotional-schedule
+- https://watchufa.com/thunderbirds/
+- https://watchufa.com/thunderbirds/players
+- https://watchufa.com/thunderbirds/about
+- https://watchufa.com/league/news/2026-ufa-team-rosters-are-live
+- https://fnbstadiumpgh.com/
+- https://www.riverhounds.com/fnb-stadium/
+
+choirs_ensembles:
+- https://www.themendelssohn.org/
+- https://www.themendelssohn.org/join-us/
+- https://www.bachchoirpittsburgh.org/auditions/
+- https://www.bachchoirpittsburgh.org/about-us/
+- https://www.heinzchapelchoir.com/newbies
+- https://www.heinzchapelchoir.com/immersion
+- https://pitttreblechoralensemble.com/
+- https://pitttreblechoralensemble.com/about
+- https://pitttreblechoralensemble.com/auditions
+
+univ_pages: 
+- https://www.pointpark.edu/calendar/academiccalendar
+- https://www.duq.edu/academics/academic-calendar/fall-2026.php
+- https://www.duq.edu/academics/academic-calendar/spring-2027.php
+- https://www.pointpark.edu/about/index
+- https://www.pointpark.edu/about/history
+- https://pointparksports.com/sports/2024/9/9/AboutUs.aspx
+- https://www.pointpark.edu/news/2026-founders-day-celebration
+- https://www.cmu.edu/
+- https://www.pitt.edu/
+- https://www.chatham.edu/
+- https://www.duq.edu/
+- https://www.rmu.edu/
+
+more_arts:
+- https://www.quantumtheatre.com/
+- https://www.quantumtheatre.com/team/
+- https://www.quantumtheatre.com/about/what-we-are/ 
+- https://www.quantumtheatre.com/subscribe-two/ 
+- https://www.quantumtheatre.com/about/contact/
+- https://trustarts.org/
+- https://trustarts.org/pct_home/about/organization/board/pittsburgh-cultural-trust-board-of-trustees
+- https://trustarts.org/pct_home/about/employment
+- https://trustarts.org/calendar?cid=748&page=7
+- https://trustarts.org/calendar?cid=748&page=6
+- https://trustarts.org/calendar?cid=748&page=5
+- https://trustarts.org/calendar?cid=748&page=4
+- https://trustarts.org/calendar?cid=748&page=3
+- https://trustarts.org/calendar?cid=748&page=2
+- https://trustarts.org/calendar?cid=748
+- https://traf.trustarts.org/
+- https://traf.trustarts.org/traf_home/about
+- https://firstnightpgh.trustarts.org/events
+- https://firstnightpgh.trustarts.org/fn_home/about/about-highmark-first-night-pittsburgh
+- https://trustarts.org/pct_home/visual-arts/gallery-crawls
+- https://trustarts.org/pct_home/events/university-student-tickets
+- https://mattress.org/
+- https://mattress.org/about/staff-board/
+- https://photoantiquities.org/hire-us
+- https://mattress.org/about/work-with-us/
+- https://mattress.org/art/on-view-mattress-factory-contemporary-art-in-pittsburgh/
+- https://mattress.org/visit/
+- https://photoantiquities.org/
+- https://photoantiquities.org/about
+- https://photoantiquities.org/hire-us
+- https://pittsburghmuseums.org/southwestern-pennsylvania/allegheny/pittsburgh/photo-antiquities-museum-photographic-history
+- https://www.thefrickpittsburgh.org/
+- https://www.pittsburghglasscenter.org/
+- https://contemporarycraft.org/
+- https://pittsburghkids.org/
+- https://www.heinzhistorycenter.org/
+- https://thewestmoreland.org/
+- https://www.warhol.org/
+- https://www.warhol.org/exhibition/sharif-bey-homecoming/
+- https://www.warhol.org/calendar/ 
+- https://www.warhol.org/calendar/list/?eventDisplay=past
+- https://www.warhol.org/calendar/list/page/2/
+- https://www.warhol.org/art
+- https://carnegiemuseums.org/our-museums/plan-a-visit/
+- https://www.warhol.org/about/the-museum
+- https://thewestmoreland.org/collection/
+- https://www.pittsburghzoo.org/plan-your-visit/
+- https://thewestmoreland.org/conservation/
+- https://www.visitpittsburgh.com/directory/kamin-science-center-event-meeting-venues/
+- https://filmpittsburgh.org/pages/three-rivers-film-festival
+- https://filmpittsburgh.org/news/film-pittsburgh-presents-the-2026-three-rivers-film-festival-november-4-15
+- https://www.visitpittsburgh.com/events/three-rivers-film-festival/
+- https://filmpittsburgh.org/
+
+wikis: 
+- https://en.wikipedia.org/wiki/Strip_District,_Pittsburgh
+- https://en.wikipedia.org/wiki/Duquesne_Incline
+- https://en.wikipedia.org/wiki/Frick_Park
+- https://en.wikipedia.org/wiki/Boulevard_of_the_Allies
+- https://en.wikipedia.org/wiki/Roberto_Clemente_Bridge
+- https://en.wikipedia.org/w/index.php?search=Bellefield+Bridge
+- https://en.wikipedia.org/wiki/Pittsburgh_Renaissance_Historic_District
+- https://en.wikipedia.org/wiki/City-County_Building_(Pittsburgh)
+- https://en.wikipedia.org/wiki/F.N.B._Stadium_(Pittsburgh)
+- https://en.wikipedia.org/wiki/History_of_the_Pittsburgh_Pirates
+- https://en.wikipedia.org/wiki/Carnegie_Museum_of_Natural_History
+- https://en.wikipedia.org/wiki/Pittsburgh
+- https://en.wikipedia.org/wiki/History_of_Pittsburgh
+- https://en.wikipedia.org/wiki/Oakland_(Pittsburgh)
+- https://en.wikipedia.org/wiki/Downtown_Pittsburgh
+- https://en.wikipedia.org/wiki/Point_State_Park
+- https://en.wikipedia.org/wiki/Schenley_Park
+- https://en.wikipedia.org/wiki/Mount_Washington_(Pittsburgh)
+- https://en.wikipedia.org/wiki/Monongahela_Incline
+- https://en.wikipedia.org/wiki/Fort_Pitt_(Pennsylvania)
+- https://en.wikipedia.org/wiki/Cathedral_of_Learning
+- https://en.wikipedia.org/wiki/Phipps_Conservatory_and_Botanical_Gardens
+
+grand_prix:
+- https://pvgp.org/
+- https://pvgp.org/calendar/
+- https://pvgp.org/calendar-events/
+- https://pvgp.org/general-event-information/
+- https://pvgp.org/vintage-race-schedule/
+- https://pvgp.org/pvgp-visitor-links/
+- https://pvgp.org/general-event-information/schenley-park-road-closures/
+- https://pvgp.org/racers/
+- https://pvgp.org/pvgp-plans-a-triumphant-return-to-its-legendary-schenley-park-race-circuit-with-the-announced-opening-of-panther-hollow-bridge-for-the-pvgp/
+- https://www.visitpittsburgh.com/blog/pittsburgh-vintage-grand-prix/
+- https://pvgp.org/tickets-for-scheney-park-race-weekend-on-sale-now/
+
+
+# One level of link-following: crawl `seed`, then also crawl every link on it that
+# matches `pattern` (fnmatch-style). PDFs that match get downloaded and parsed.
+# Pages found this way are only fetched once; delete them from data/scraped_data.json to refresh.
+follow_links:
+  - seed: https://apps.alleghenycounty.us/website/MuniList.asp
+    pattern: "*MuniProfile.asp?muni=*"
+    category: allegheny_municipalities
+  - seed: https://www.pittsburghpa.gov/City-Government/Finance-Budget/Taxes/Tax-Forms
+    pattern: "*regulations.pdf"
+    category: taxes
+  # - seed: https://downtownpittsburgh.com/events/
+  #   pattern: "*downtownpittsburgh.com/event-series/*"
+  #   category: events
+  - seed: https://pvgp.org/
+    menus: true
+    pattern:
+      - "https://pvgp.org/events/*"
+      - "https://pvgp.org/drivers/*"
+      - "https://pvgp.org/general-event-information/*"
+      - "https://pvgp.org/car-show-overview/*"
+      - "https://pvgp.org/about-us/*"
+      - "https://pvgp.org/charities/"
+      - "https://pvgp.org/general-info-faqs/"
+      - "https://pvgp.org/maps-directions/"
+    category: events_venues
+
