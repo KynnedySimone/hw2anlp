@@ -55,7 +55,7 @@ def main():
         answers[ex["id"]] = pred
         entry = {"id": ex["id"], "question": ex["question"], "prediction": pred, "sources": sources,
                  "sentence_mode": reader.sentence_mode(ex["question"], contexts),
-                 "retried": getattr(reader, "retried", False)}
+                 "retried": getattr(reader, "retried", False), "fallback": getattr(reader, "fallback", False)}
         if "answers" in ex:
             entry["answers"] = ex["answers"]
             entry.update(score(pred, ex["answers"]))

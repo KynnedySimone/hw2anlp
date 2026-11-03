@@ -14,7 +14,11 @@ DEFAULT_HF_MODEL = "Qwen/Qwen2.5-7B-Instruct"
 # "v3" = adaptive, plus: questions asking for a bare value (price, year, how many...) never get
 # sentence mode; the short prompt asks for complete dates/names/units and for numbers that belong
 # to the subject asked about; refusals and malformed answers are re-asked once.
-ANSWER_STYLES = ["short", "adaptive", "v3"]
+# "v4" = v3 with a sentence prompt matched to the references' style (~15-20 words, the question's own
+# wording, a general description without extra numbers/dates/names), and if the re-ask still refuses,
+# a last answer from the model's own knowledge (closed-book) instead of keeping the refusal.
+ANSWER_STYLES = ["short", "adaptive", "v3", "v4"]
+V3_STYLES = ("v3", "v4")  # styles with the value guard, the v3 short prompt and the re-ask
 DESCRIBE = re.compile(r"\b(significance|significant|specialty|specialties|unique|known for|famous for|tradition|"
                       r"distinction|role|describe|explain|why|how (does|do)|, and how|what (type|kind)s? of|"
                       r"experience)\b")
@@ -99,18 +103,57 @@ FEWSHOT_SENTENCE = [
      "Yes, the Allegheny Observatory is an astronomical research facility of the University of "
      "Pittsburgh's Department of Physics and Astronomy."),
 ]
+# v4: dev references for descriptive questions are short, general descriptions that reuse the question's
+# wording; v3's answers were often correct but worded differently and padded with specific numbers,
+# dates and names the references don't have, which costs token-overlap F1
+SYSTEM_SENTENCE_V4 = (
+    "You answer questions about Pittsburgh and Carnegie Mellon University (CMU) using the provided "
+    "context documents. Reply with ONE sentence of about 15-20 words, written like a short travel-guide "
+    "or encyclopedia description. Start with the subject, named with the same words the question uses "
+    "(or 'In <year>,' when the question is about a year, or 'Yes,' / 'No,' for a yes/no question). "
+    "Reuse the question's key phrase (e.g. 'is known for', 'specializes in', 'is significant as'), then "
+    "say in general terms what the subject is and what it is known for. Leave out extra numbers, dates, "
+    "counts and people's names unless the question asks for them. No lists and no second sentence. If the "
+    "context does not contain the answer, still give your best one-sentence answer from what you know. "
+    "Never reply N/A, unknown, or that the context does not say."
+)
+# same topics as FEWSHOT_SENTENCE (checked absent from the eval sets), minus details nobody asked for
+FEWSHOT_SENTENCE_V4 = [
+    ("What is Primanti Bros. known for?",
+     "Primanti Bros. is known for its sandwiches piled high with french fries and coleslaw."),
+    ("What is the significance of the Carnegie Library of Pittsburgh?",
+     "The Carnegie Library of Pittsburgh is significant as the city's public library system, founded with "
+     "funding from Andrew Carnegie."),
+    ("What is Mr. Yuk?",
+     "Mr. Yuk is a green frowning-face symbol created in Pittsburgh to warn children away from poisons."),
+    ("What is the significance of the year 1816 for Pittsburgh?",
+     "In 1816, Pittsburgh was incorporated as a city."),
+    ("Is the Allegheny Observatory part of the University of Pittsburgh?",
+     "Yes, the Allegheny Observatory is an astronomical research facility of the University of Pittsburgh."),
+]
+# v4: last resort after a refused re-ask, answering from the model's own knowledge
+SYSTEM_CLOSED_SENTENCE = (
+    "You answer questions about Pittsburgh and Carnegie Mellon University (CMU) from your own knowledge. "
+    "Reply with ONE sentence of about 15-20 words that starts with the subject and says what it is or what "
+    "it is known for. If you are unsure, give your best guess. Never reply N/A, unknown, or that you do not know."
+)
 
 
-def build_messages(question, contexts=None, sentence=False, v3=False):
+def build_messages(question, contexts=None, sentence=False, v3=False, v4=False):
     if contexts is None:
-        msgs = [{"role": "system", "content": SYSTEM_CLOSED}]
-        for q, a in FEWSHOT:
+        system, shots = (SYSTEM_CLOSED_SENTENCE, FEWSHOT_SENTENCE_V4) if sentence else (SYSTEM_CLOSED, FEWSHOT)
+        msgs = [{"role": "system", "content": system}]
+        for q, a in shots:
             msgs += [{"role": "user", "content": f"Question: {q}"}, {"role": "assistant", "content": a}]
         msgs.append({"role": "user", "content": f"Question: {question}"})
         return msgs
     ctx = "\n\n".join(f"[Document {i}] {c}" for i, c in enumerate(contexts, 1))
-    msgs = [{"role": "system", "content": SYSTEM_SENTENCE if sentence else SYSTEM_RAG_V3 if v3 else SYSTEM_RAG}]
-    for q, a in (FEWSHOT_SENTENCE if sentence else FEWSHOT):
+    if sentence:
+        system, shots = (SYSTEM_SENTENCE_V4, FEWSHOT_SENTENCE_V4) if v4 else (SYSTEM_SENTENCE, FEWSHOT_SENTENCE)
+    else:
+        system, shots = (SYSTEM_RAG_V3 if v3 else SYSTEM_RAG), FEWSHOT
+    msgs = [{"role": "system", "content": system}]
+    for q, a in shots:
         msgs += [{"role": "user", "content": f"Question: {q}"}, {"role": "assistant", "content": a}]
     msgs.append({"role": "user", "content": f"Context:\n{ctx}\n\nQuestion: {question}\nAnswer:"})
     return msgs
@@ -154,21 +197,25 @@ class Reader:
         return self.tokenizer.decode(ids[0, inputs["input_ids"].shape[1]:], skip_special_tokens=True)
 
     def sentence_mode(self, question, contexts=None):
-        """Whether this question gets a full-sentence answer (adaptive/v3 style, RAG only)."""
-        return (self.answer_style in ("adaptive", "v3") and contexts is not None
-                and wants_sentence(question, value_guard=self.answer_style == "v3"))
+        """Whether this question gets a full-sentence answer (adaptive/v3/v4 style, RAG only)."""
+        return (self.answer_style in ("adaptive", *V3_STYLES) and contexts is not None
+                and wants_sentence(question, value_guard=self.answer_style in V3_STYLES))
 
     def answer(self, question, contexts=None):
         sentence = self.sentence_mode(question, contexts)
-        v3 = self.answer_style == "v3"
+        v3, v4 = self.answer_style in V3_STYLES, self.answer_style == "v4"
         max_tokens = self.sentence_tokens if sentence else None
-        messages = build_messages(question, contexts, sentence, v3)
+        messages = build_messages(question, contexts, sentence, v3, v4)
         raw = self.generate(messages, max_tokens)
         answer = clean_answer(raw)
-        self.retried = False
+        self.retried = self.fallback = False
         if v3 and (REFUSAL.search(answer) or malformed(answer, sentence)):
             form = "one sentence" if sentence else "a short name, number or date"
             messages += [{"role": "assistant", "content": raw.strip()},
                          {"role": "user", "content": REASK.format(form=form)}]
             answer, self.retried = clean_answer(self.generate(messages, max_tokens)), True
+            if v4 and contexts is not None and REFUSAL.search(answer):
+                # still refusing: a guess from the model's own knowledge can score, a refusal never does
+                answer = clean_answer(self.generate(build_messages(question, None, sentence), max_tokens))
+                self.fallback = True
         return answer

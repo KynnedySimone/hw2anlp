@@ -1,0 +1,30 @@
+{
+  "command": "python run_rag.py --questions public_evaluation_data.json --output outputs/dev_closed_book.json --chunking fixed --chunk-size 200 --top-k 5 --closed-book",
+  "config": {
+    "chunking": "fixed",
+    "chunk_size": 200,
+    "overlap": 40,
+    "retriever": "hybrid",
+    "fusion": "rrf",
+    "alpha": 0.5,
+    "embedder": "BAAI/bge-m3",
+    "rerank": false,
+    "top_k": 5,
+    "questions": "public_evaluation_data.json",
+    "output": "outputs/dev_closed_book.json",
+    "closed_book": true,
+    "reader_model": null,
+    "backend": null,
+    "andrewid": null,
+    "limit": null
+  },
+  "scores": {
+    "em": 0.025477707006369428,
+    "f1": 0.09918439971302827,
+    "recall": 0.09700354188893752,
+    "rougeL": 0.09865361415039557,
+    "n": 157
+  },
+  "corpus": null,
+  "time": "2026-10-30 17:58"
+}

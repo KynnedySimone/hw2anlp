@@ -59,6 +59,10 @@ wikipedia_cmu:
   - https://en.wikipedia.org/wiki/Tepper_School_of_Business
   - https://en.wikipedia.org/wiki/Walking_to_the_Sky
   - https://en.wikipedia.org/wiki/Whiskey_Rebellion
+  - https://en.wikipedia.org/wiki/Robotics_Institute_at_Carnegie_Mellon_University
+  - https://en.wikipedia.org/wiki/Human%E2%80%93Computer_Interaction_Institute_at_Carnegie_Mellon_University
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_University_in_Qatar
+  - https://en.wikipedia.org/wiki/Carnegie_Mellon_Silicon_Valley
 
 general_info_history:
   - https://en.wikipedia.org/wiki/Pittsburgh
@@ -89,7 +93,6 @@ sports:
   - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_women%27s_soccer
   - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_baseball
   - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_softball
-  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_athletics
   - https://en.wikipedia.org/wiki/Pittsburgh_Panthers
   - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_football
   - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_men%27s_basketball
@@ -98,7 +101,6 @@ sports:
   - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_women%27s_soccer
   - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_baseball
   - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_softball
-  - https://en.wikipedia.org/wiki/Pittsburgh_Panthers_athletics
 
 events:
   - https://downtownpittsburgh.com/events/
@@ -308,6 +310,8 @@ misc:
   - https://en.wikipedia.org/wiki/Highmark
   - https://en.wikipedia.org/wiki/U.S._Steel
   - https://en.wikipedia.org/wiki/Duquesne_Dukes_football 
+  - https://librarymusichall.com/frequently-asked-questions-faqs
+  - https://librarymusichall.com/about  
 
 events_venues:
   - https://improv.com/pittsburgh/calendar/   # a past ?start= date returns "no events"
@@ -547,7 +551,6 @@ athletics:
 - https://gochathamcougars.com/coverage?date=12/13/2026
 - https://gochathamcougars.com/coverage?date=12/20/2026
 - https://gochathamcougars.com/coverage?date=12/27/2026
-- https://goduquesne.com/splash.aspx?id=splash_37
 - https://www.duq.edu/life-at-duquesne/health-recreation-wellness/club-sports.php
 - https://duq.campuslabs.com/engage/organization/duquesneuniversityicehockey
 - https://rmucolonials.com/splash.aspx?id=splash_87
@@ -606,6 +609,7 @@ univ_pages:
 - https://www.chatham.edu/
 - https://www.duq.edu/
 - https://www.rmu.edu/
+- https://ai.cmu.edu/research-and-policy-impact/history-of-ai-at-cmu
 
 more_arts:
 - https://www.quantumtheatre.com/
@@ -685,6 +689,49 @@ wikis:
 - https://en.wikipedia.org/wiki/Fort_Pitt_(Pennsylvania)
 - https://en.wikipedia.org/wiki/Cathedral_of_Learning
 - https://en.wikipedia.org/wiki/Phipps_Conservatory_and_Botanical_Gardens
+- https://en.wikipedia.org/wiki/List_of_Carnegie_Mellon_University_people 
+- https://en.wikipedia.org/wiki/Carnegie_Mellon_University
+- https://en.wikipedia.org/wiki/Carnegie_Mellon_University_traditions
+- https://en.wikipedia.org/wiki/University_of_Pittsburgh
+- https://en.wikipedia.org/wiki/Duquesne_University#Notable_alumni_and_former_students
+- https://en.wikipedia.org/wiki/List_of_Duquesne_University_people 
+- https://en.wikipedia.org/wiki/Point_Park_University 
+- https://en.wikipedia.org/wiki/List_of_colleges_and_universities_in_Pittsburgh 
+- https://en.wikipedia.org/wiki/David_L._Lawrence_Convention_Center
+- https://en.wikipedia.org/wiki/Pittsburgh 
+- https://en.wikipedia.org/wiki/List_of_people_from_Pittsburgh 
+- https://en.wikipedia.org/wiki/List_of_municipalities_in_Pennsylvania
+- https://en.wikipedia.org/wiki/Heinz_Hall 
+- https://en.wikipedia.org/wiki/Benedum_Center
+- https://en.wikipedia.org/wiki/Pittsburgh_Symphony_Orchestra
+- https://en.wikipedia.org/wiki/Pittsburgh_Opera
+- https://en.wikipedia.org/wiki/The_Andy_Warhol_Museum
+- https://en.wikipedia.org/wiki/Carnegie_Museum_of_Art 
+- https://en.wikipedia.org/wiki/Pittsburgh_Center_for_the_Arts
+- https://en.wikipedia.org/wiki/Mattress_Factory
+- https://en.wikipedia.org/wiki/Carnegie_Museum_of_Natural_History
+- https://en.wikipedia.org/wiki/Kamin_Science_Center
+- https://en.wikipedia.org/wiki/Three_Rivers_Arts_Festival
+- https://en.wikipedia.org/wiki/Pittsburgh_Zoo_&_Aquarium
+- https://en.wikipedia.org/wiki/Phipps_Conservatory_and_Botanical_Gardens
+- https://en.wikipedia.org/wiki/National_Aviary
+- https://en.wikipedia.org/wiki/Kennywood
+- https://en.wikipedia.org/wiki/North_Shore_(Pittsburgh)
+- https://en.wikipedia.org/wiki/Acrisure_Stadium
+- https://en.wikipedia.org/wiki/Anthrocon 
+- https://en.wikipedia.org/wiki/Theatre_in_Pittsburgh
+- https://en.wikipedia.org/wiki/Sports_in_Pittsburgh 
+- https://en.wikipedia.org/wiki/Pittsburgh_Whiskey_%26_Fine_Spirits_Festival
+- https://en.wikipedia.org/wiki/Pittsburgh_New_Works_Festival
+- https://en.wikipedia.org/wiki/Deutschtown_Music_Festival
+- https://en.wikipedia.org/wiki/Pittsburgh_Three_Rivers_Regatta
+- https://en.wikipedia.org/wiki/List_of_films_shot_in_Pittsburgh 
+- https://en.wikipedia.org/wiki/Pittsburgh_Folk_Festival 
+- https://en.wikipedia.org/wiki/Pittsburgh_Renaissance_Festival
+- https://en.wikipedia.org/wiki/Pittsburgh_Blues_Festival
+- https://en.wikipedia.org/wiki/Three_Rivers_Film_Festival
+- https://en.wikipedia.org/wiki/Pittsburgh_Wine_Festival 
+- https://en.wikipedia.org/wiki/Culture_of_Pittsburgh 
 
 grand_prix:
 - https://pvgp.org/
@@ -698,6 +745,99 @@ grand_prix:
 - https://pvgp.org/pvgp-plans-a-triumphant-return-to-its-legendary-schenley-park-race-circuit-with-the-announced-opening-of-panther-hollow-bridge-for-the-pvgp/
 - https://www.visitpittsburgh.com/blog/pittsburgh-vintage-grand-prix/
 - https://pvgp.org/tickets-for-scheney-park-race-weekend-on-sale-now/
+
+pgh_mag:
+- https://www.pittsburghmagazine.com/where-to-wine-and-dine-in-pittsburghs-cultural-district/
+- https://www.pittsburghmagazine.com/the-25-best-restaurants-in-pittsburgh-for-2026/
+- https://www.pittsburghmagazine.com/things-to-do-in-pittsburgh-in-novemeber-2026/
+- https://www.pittsburghmagazine.com/pittsburgh-fall-things-to-do-autumn-2026/
+- https://www.pittsburghmagazine.com/pittsburgh-broadway-2026-cultural-district-shows/
+
+borough_pages:
+- https://en.wikipedia.org/wiki/Aspinwall,_Pennsylvania
+- https://en.wikipedia.org/wiki/Avalon,_Pennsylvania
+- https://en.wikipedia.org/wiki/Baldwin,_Allegheny_County,_Pennsylvania
+- https://en.wikipedia.org/wiki/Bell_Acres,_Pennsylvania
+- https://en.wikipedia.org/wiki/Bellevue,_Pennsylvania
+- https://en.wikipedia.org/wiki/Ben_Avon,_Allegheny_County,_Pennsylvania
+- https://en.wikipedia.org/wiki/Ben_Avon_Heights,_Pennsylvania
+- https://en.wikipedia.org/wiki/Bethel_Park,_Pennsylvania
+- https://en.wikipedia.org/wiki/Blawnox,_Pennsylvania
+- https://en.wikipedia.org/wiki/Brackenridge,_Pennsylvania
+- https://en.wikipedia.org/wiki/Braddock,_Allegheny_County,_Pennsylvania
+- https://en.wikipedia.org/wiki/Braddock_Hills,_Pennsylvania
+- https://en.wikipedia.org/wiki/Bradford_Woods,_Pennsylvania
+- https://en.wikipedia.org/wiki/Brentwood,_Pennsylvania
+- https://en.wikipedia.org/wiki/Bridgeville,_Pennsylvania
+- https://en.wikipedia.org/wiki/Carnegie,_Pennsylvania
+- https://en.wikipedia.org/wiki/Castle_Shannon,_Pennsylvania
+- https://en.wikipedia.org/wiki/Chalfant,_Pennsylvania
+- https://en.wikipedia.org/wiki/Cheswick,_Pennsylvania
+- https://en.wikipedia.org/wiki/Churchill,_Pennsylvania
+- https://en.wikipedia.org/wiki/Coraopolis,_Pennsylvania
+- https://en.wikipedia.org/wiki/Crafton,_Pennsylvania
+- https://en.wikipedia.org/wiki/Dormont,_Pennsylvania
+- https://en.wikipedia.org/wiki/Dravosburg,_Pennsylvania
+- https://en.wikipedia.org/wiki/East_McKeesport,_Pennsylvania
+- https://en.wikipedia.org/wiki/East_Pittsburgh,_Pennsylvania
+- https://en.wikipedia.org/wiki/Edgewood,_Allegheny_County,_Pennsylvania
+- https://en.wikipedia.org/wiki/Edgeworth,_Pennsylvania
+- https://en.wikipedia.org/wiki/Elizabeth,_Pennsylvania
+- https://en.wikipedia.org/wiki/Emsworth,_Pennsylvania
+- https://en.wikipedia.org/wiki/Etna,_Pennsylvania
+- https://en.wikipedia.org/wiki/Forest_Hills,_Pennsylvania
+- https://en.wikipedia.org/wiki/Fox_Chapel,_Pennsylvania
+- https://en.wikipedia.org/wiki/Franklin_Park,_Pennsylvania
+- https://en.wikipedia.org/wiki/Glassport,_Pennsylvania
+- https://en.wikipedia.org/wiki/Glenfield,_Pennsylvania
+- https://en.wikipedia.org/wiki/Glen_Osborne,_Pennsylvania
+- https://en.wikipedia.org/wiki/Green_Tree,_Pennsylvania
+- https://en.wikipedia.org/wiki/Haysville,_Pennsylvania
+- https://en.wikipedia.org/wiki/Heidelberg,_Pennsylvania
+- https://en.wikipedia.org/wiki/Homestead,_Pennsylvania
+- https://en.wikipedia.org/wiki/Ingram,_Pennsylvania
+- https://en.wikipedia.org/wiki/Jefferson_Hills,_Pennsylvania
+- https://en.wikipedia.org/wiki/Leetsdale,_Pennsylvania
+- https://en.wikipedia.org/wiki/Liberty,_Allegheny_County,_Pennsylvania
+- https://en.wikipedia.org/wiki/Lincoln,_Pennsylvania
+- https://en.wikipedia.org/wiki/McDonald,_Pennsylvania
+- https://en.wikipedia.org/wiki/McKees_Rocks,_Pennsylvania
+- https://en.wikipedia.org/wiki/Millvale,_Pennsylvania
+- https://en.wikipedia.org/wiki/Monroeville,_Pennsylvania
+- https://en.wikipedia.org/wiki/Mount_Oliver,_Pennsylvania
+- https://en.wikipedia.org/wiki/Munhall,_Pennsylvania
+- https://en.wikipedia.org/wiki/North_Braddock,_Pennsylvania
+- https://en.wikipedia.org/wiki/Oakdale,_Pennsylvania
+- https://en.wikipedia.org/wiki/Oakmont,_Pennsylvania
+- https://en.wikipedia.org/wiki/Pennsbury_Village,_Pennsylvania
+- https://en.wikipedia.org/wiki/Pitcairn,_Pennsylvania
+- https://en.wikipedia.org/wiki/Pleasant_Hills,_Pennsylvania
+- https://en.wikipedia.org/wiki/Plum,_Pennsylvania
+- https://en.wikipedia.org/wiki/Port_Vue,_Pennsylvania
+- https://en.wikipedia.org/wiki/Rankin,_Pennsylvania
+- https://en.wikipedia.org/wiki/Rosslyn_Farms,_Pennsylvania
+- https://en.wikipedia.org/wiki/Sewickley,_Pennsylvania
+- https://en.wikipedia.org/wiki/Sewickley_Heights,_Pennsylvania
+- https://en.wikipedia.org/wiki/Sewickley_Hills,_Pennsylvania
+- https://en.wikipedia.org/wiki/Sharpsburg,_Pennsylvania
+- https://en.wikipedia.org/wiki/Springdale,_Pennsylvania
+- https://en.wikipedia.org/wiki/Swissvale,_Pennsylvania
+- https://en.wikipedia.org/wiki/Tarentum,_Pennsylvania
+- https://en.wikipedia.org/wiki/Thornburg,_Pennsylvania
+- https://en.wikipedia.org/wiki/Trafford,_Pennsylvania
+- https://en.wikipedia.org/wiki/Turtle_Creek,_Pennsylvania
+- https://en.wikipedia.org/wiki/Verona,_Pennsylvania
+- https://en.wikipedia.org/wiki/Versailles,_Pennsylvania
+- https://en.wikipedia.org/wiki/Wall,_Pennsylvania
+- https://en.wikipedia.org/wiki/West_Elizabeth,_Pennsylvania
+- https://en.wikipedia.org/wiki/West_Homestead,_Pennsylvania
+- https://en.wikipedia.org/wiki/West_Mifflin,_Pennsylvania
+- https://en.wikipedia.org/wiki/West_View,_Pennsylvania
+- https://en.wikipedia.org/wiki/Whitaker,_Pennsylvania
+- https://en.wikipedia.org/wiki/White_Oak,_Pennsylvania
+- https://en.wikipedia.org/wiki/Whitehall,_Allegheny_County,_Pennsylvania
+- https://en.wikipedia.org/wiki/Wilkinsburg,_Pennsylvania
+- https://en.wikipedia.org/wiki/Wilmerding,_Pennsylvania
 
 
 # One level of link-following: crawl `seed`, then also crawl every link on it that

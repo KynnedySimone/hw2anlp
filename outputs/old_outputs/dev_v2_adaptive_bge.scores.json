@@ -1,0 +1,33 @@
+{
+  "command": "python run_rag.py --questions public_evaluation_data.json --output outputs/dev_v2_adaptive_bge.json --chunking sentence --chunk-size 200 --alpha 0.5 --top-k 5 --retriever hybrid --fusion rrf --rerank --answer-style adaptive --reranker BAAI/bge-reranker-v2-m3",
+  "config": {
+    "chunking": "sentence",
+    "chunk_size": 200,
+    "overlap": 40,
+    "retriever": "hybrid",
+    "fusion": "rrf",
+    "alpha": 0.5,
+    "embedder": "BAAI/bge-m3",
+    "rerank": true,
+    "reranker": "BAAI/bge-reranker-v2-m3",
+    "top_k": 5,
+    "questions": "public_evaluation_data.json",
+    "output": "outputs/dev_v2_adaptive_bge.json",
+    "closed_book": false,
+    "reader_model": null,
+    "answer_style": "adaptive",
+    "backend": null,
+    "andrewid": null,
+    "limit": null
+  },
+  "scores": {
+    "em": 0.43312101910828027,
+    "f1": 0.5711413887239628,
+    "recall": 0.5866953052151775,
+    "rougeL": 0.5648739305133135,
+    "answer_in_context": 0.6050955414012739,
+    "n": 157
+  },
+  "corpus": "c7068ba75a",
+  "time": "2026-10-31 21:18"
+}

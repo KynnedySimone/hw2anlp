@@ -1,0 +1,33 @@
+{
+  "command": "python run_rag.py --questions public_evaluation_data.json --output outputs/dev_v2_adaptive.json --chunking sentence --chunk-size 200 --alpha 0.5 --top-k 5 --retriever hybrid --fusion rrf --rerank --answer-style adaptive",
+  "config": {
+    "chunking": "sentence",
+    "chunk_size": 200,
+    "overlap": 40,
+    "retriever": "hybrid",
+    "fusion": "rrf",
+    "alpha": 0.5,
+    "embedder": "BAAI/bge-m3",
+    "rerank": true,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "top_k": 5,
+    "questions": "public_evaluation_data.json",
+    "output": "outputs/dev_v2_adaptive.json",
+    "closed_book": false,
+    "reader_model": null,
+    "answer_style": "adaptive",
+    "backend": null,
+    "andrewid": null,
+    "limit": null
+  },
+  "scores": {
+    "em": 0.4585987261146497,
+    "f1": 0.5959767893532022,
+    "recall": 0.6155031413188649,
+    "rougeL": 0.5877971653818557,
+    "answer_in_context": 0.6050955414012739,
+    "n": 157
+  },
+  "corpus": "c7068ba75a",
+  "time": "2026-10-31 21:50"
+}
